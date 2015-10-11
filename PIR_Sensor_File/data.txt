@@ -1,0 +1,10 @@
+It is plug-and-play with Vex, so I thought I'd post and share the goodness. It has a 3-pin connector that you can plug a servo extender into and the pinout is correct for Vex.
+
+Attached to a digital port, it reads 0 until it senses motion in its field of view (about a 90 degree cone). The output remains high until a few seconds after the motion stops, then it returns to 0. (There is a jumper that configures it to pulse the whole time it is sensing motion, if you prefer.) You have to let it self-calibrate after you first power it on, so it won't stabilize until 30s or so after you power it on.
+
+It has two small holes for mounting, but they don't conform to Vex sizes or spacing, of course.
+
+Obviously, it'll trigger continuously wile your bot is in motion, but it could be useful for a sentry bot that sits idle until it detects movement.
+
+Cheers,
+- Dean

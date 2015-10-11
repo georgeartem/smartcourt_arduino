@@ -1,0 +1,42 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x4010f000, len 1264, room 16 
+tail 0
+chksum 0x42
+csum 0x42
+~ld
+Connecting to strychnine
+.......
+WiFi connected
+IP address: 
+192.168.1.126
+
+ctx: cont 
+sp: 3ffea590 end: 3ffea7e0 offset: 01b0
+
+>>>stack>>>
+3ffea740:  3ffea838 00000001 3ffe94f0 40202238  
+3ffea750:  3ffea838 00000001 3ffe8dd9 3ffea80c  
+3ffea760:  4023e214 0000000d 3ffea838 4020533d  
+3ffea770:  3ffe8dd8 3ffe9508 3ffea838 3ffea80c  
+3ffea780:  4023e214 3ffe9508 3ffea838 40205c5c  
+3ffea790:  7e01a8c0 00ffffff 0101a8c0 40205d15  
+3ffea7a0:  4023e214 3ffe9508 3ffea838 40202198  
+3ffea7b0:  3ffe8e18 7e01a8c0 00000000 3ffea80c  
+3ffea7c0:  3fffdc20 00000000 3ffea804 4020184a  
+3ffea7d0:  00000000 00000000 3ffe97c0 40100378  
+<<<stack<<<
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x4010f000, len 1264, room 16 
+tail 0
+chksum 0x42
+csum 0x42
+~ld
+Connecting to strychnine
+.......
+WiFi connected
+IP address: 
+192.168.1.126
