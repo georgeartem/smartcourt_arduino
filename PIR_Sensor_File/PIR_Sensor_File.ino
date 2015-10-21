@@ -34,8 +34,8 @@ String courtstatus; //status of the tennis court to be sent via wifi
 
     char server[] ="www.previousk.com"; // enter the name of the server
 
-#define WLAN_SSID       "strychnine" // enter the Wifi SSID
-#define WLAN_PASS       "TokyoPopSoda" // enter the Wifi Password
+#define WLAN_SSID       "SoDo MakerSpace" // enter the Wifi SSID
+#define WLAN_PASS       "MakeS0D0" // enter the Wifi Password
 
 WiFiClient client;
 
